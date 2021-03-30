@@ -1,0 +1,14 @@
+@font-face {
+  font-family: 'Grape Soda';
+  src: url("@/resources/fonts/GrapeSoda.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Uni 05';
+  font-weight: normal;
+  src: url("@/resources/fonts/uni05_53.ttf") format("truetype");
+}
+@font-face {
+  font-family: 'Uni 05';
+  font-weight: bold;
+  src: url("@/resources/fonts/uni05_63.ttf") format("truetype");
+}

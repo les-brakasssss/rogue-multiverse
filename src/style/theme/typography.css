@@ -1,0 +1,43 @@
+html,
+body {
+  font-size: var(--typography-default-font-size);
+  line-height: var(--typography-default-line-height);
+  font-family: var(--typography-default-font-family),
+    var(--typography-default-font-family-fallback);
+  font-weight: normal;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--typography-default-font-family-headers),
+    var(--typography-default-font-family-fallback);
+  font-weight: bold;
+}
+
+h1,
+h2 {
+  font-size: 2.5em;
+}
+
+h4,
+h3 {
+  font-size: 2em;
+}
+
+h5,
+h6 {
+  font-size: 1.5em;
+}
+
+code,
+kbd,
+samp,
+pre {
+  font-family: var(--typography-default-font-family-monospace),
+    var(--typography-default-font-family-monospace-fallback);
+  font-weight: normal;
+}

@@ -1,0 +1,96 @@
+.button,
+button,
+input[type='button'],
+input[type='reset'],
+input[type='submit'] {
+  padding: var(--gap-small) var(--gap-medium);
+  margin: var(--gap-small) var(--gap-medium);
+  display: inline-block;
+  box-sizing: border-box;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  border-radius: var(--radius-medium);
+  background-color: var(--palette-default);
+  color: var(--palette-default-contrast);
+  fill: currentColor;
+  opacity: var(--opacity-medium);
+  border: none;
+  box-shadow: var(--elevation-low);
+  transition: var(--transition-default);
+}
+
+.button:hover,
+button:hover,
+input[type='submit']:hover,
+input[type='reset']:hover,
+input[type='button']:hover,
+.button:focus,
+button:focus,
+input[type='submit']:focus,
+input[type='reset']:focus,
+input[type='button']:focus,
+button:active,
+input[type='submit']:active,
+input[type='reset']:active,
+input[type='button']:active {
+  opacity: var(--opacity-high);
+  border: none;
+  box-shadow: var(--elevation-medium);
+}
+
+.button:disabled,
+button:disabled,
+input[type='submit']:disabled,
+input[type='reset']:disabled,
+input[type='button']:disabled {
+  opacity: var(--opacity-low);
+  box-shadow: none;
+  transform: none;
+  cursor: not-allowed;
+}
+
+.button.accent,
+button.accent,
+input[type='submit'].accent,
+input[type='reset'].accent,
+input[type='button'].accent {
+  background-color: var(--palette-accent);
+  color: var(--palette-accent-contrast);
+}
+
+.button.info,
+button.info,
+input[type='submit'].info,
+input[type='reset'].info,
+input[type='button'].info {
+  background-color: var(--palette-info);
+  color: var(--palette-info-contrast);
+}
+
+.button.success,
+button.success,
+input[type='submit'].success,
+input[type='reset'].success,
+input[type='button'].success {
+  background-color: var(--palette-success);
+  color: var(--palette-success-contrast);
+}
+
+.button.warning,
+button.warning,
+input[type='submit'].warning,
+input[type='reset'].warning,
+input[type='button'].warning {
+  background-color: var(--palette-warning);
+  color: var(--palette-warning-contrast);
+}
+
+.button.error,
+button.error,
+input[type='submit'].error,
+input[type='reset'].error,
+input[type='button'].error {
+  background-color: var(--palette-error);
+  color: var(--palette-error-contrast);
+}

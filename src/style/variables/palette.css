@@ -1,0 +1,30 @@
+:root {
+  /**/
+  --palette-background-rgb: 23, 26, 28;
+  --palette-background: rgb(var(--palette-background-rgb));
+  --palette-background-contrast-rgb: 255, 255, 255;
+  --palette-background-contrast: rgb(var(--palette-background-contrast-rgb));
+  --palette-surface-rgb: 46, 51, 56;
+  --palette-surface: rgb(var(--palette-surface-rgb));
+  --palette-surface-contrast-rgb: 255, 255, 255;
+  --palette-surface-contrast: rgb(var(--palette-surface-contrast-rgb));
+  /**/
+  --test: rgb(64, 157, 239);
+  --palette-default-rgb: 69, 77, 84;
+  --palette-default: rgb(var(--palette-default-rgb));
+  --palette-default-contrast-rgb: 255, 255, 255;
+  --palette-default-contrast: rgb(var(--palette-default-contrast-rgb));
+  --palette-accent-rgb: 64, 157, 239;
+  --palette-accent: rgb(var(--palette-accent-rgb));
+  --palette-accent-contrast-rgb: 255, 255, 255;
+  --palette-accent-contrast: rgb(var(--palette-accent-contrast-rgb));
+  /**/
+  --palette-info: #4d9be6;
+  --palette-info-contrast: #ffffff;
+  --palette-success: #1ebc73;
+  --palette-success-contrast: #ffffff;
+  --palette-warning: #f79617;
+  --palette-warning-contrast: #ffffff;
+  --palette-error: #e83b3b;
+  --palette-error-contrast: #ffffff;
+}

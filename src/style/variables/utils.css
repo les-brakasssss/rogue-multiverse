@@ -1,0 +1,22 @@
+:root {
+  /**/
+  --gap-small: 0.25rem;
+  --gap-medium: 0.5rem;
+  --gap-large: 0.75rem;
+  /**/
+  --border-width-small: 0.0625rem;
+  --border-width-medium: 0.125rem;
+  --border-width-large: 0.25rem;
+  /**/
+  --radius-small: 0.125rem;
+  --radius-medium: 0.25rem;
+  --radius-large: 0.5rem;
+  /**/
+  --opacity-low: 0.55;
+  --opacity-medium: 0.85;
+  --opacity-high: 0.95;
+  /**/
+  --transition-default: all 0.125s ease-in-out 0s;
+  /**/
+  --transform-scale: scale3d(1.0125, 1.0125, 1.2);
+}

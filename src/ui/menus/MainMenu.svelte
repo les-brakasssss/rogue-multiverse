@@ -1,8 +1,8 @@
 <script lang="ts">
   import Layout from "@/ui/common/Layout.svelte";
   import Logo from "@/ui/common/Logo.svelte";
-  
-  const title: string = "Rogue Multiverse";
+
+  export let title: string = "";
 </script>
 
 <Layout>
@@ -10,7 +10,7 @@
     <Logo {title} />
   </header>
   <main slot="main">
-      <p>This game is a work in progress, please come back later</p>
+    <p>This game is a work in progress, please come back later</p>
   </main>
   <footer slot="footer">
     {title} • copyright 2021 • Brakasssss' Softworks
@@ -39,8 +39,8 @@
     max-width: 960px;
   }
   p {
-      padding: 1em 0;
-      font-size: 1.5em;
-      text-align: center;
+    padding: 1em 0;
+    font-size: 1.5em;
+    text-align: center;
   }
 </style>

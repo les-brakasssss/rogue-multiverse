@@ -82,9 +82,7 @@ module.exports = {
 		new MiniCssExtractPlugin({
 			filename: '[name].css'
 		}),
-		new HtmlWebpackPlugin({
-		  title: 'Output Management',
-		})
+		new HtmlWebpackPlugin()
 	],
 	devtool: prod ? false : 'source-map',
 	devServer: {

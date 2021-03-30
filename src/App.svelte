@@ -5,10 +5,11 @@
 
   import { Game } from "@/engine/core";
 
+  let title: string = "Rogue Multiverse";
+
   let game: Game = null;
 
   let canvasLayerElement: HTMLCanvasElement = null;
-  let hudLayerElement: HTMLDivElement = null;
   let uiLayerElement: HTMLDivElement = null;
 
   onMount(() => {
@@ -17,10 +18,13 @@
   });
 </script>
 
+<svelte:head>
+	<title>{title}</title>
+</svelte:head>
+
 <canvas class="layer" bind:this={canvasLayerElement} />
-<div class="layer" bind:this={hudLayerElement} />
 <div class="ui layer" bind:this={uiLayerElement}>
-  <MainMenu />
+  <MainMenu {title} />
 </div>
 
 <style>
